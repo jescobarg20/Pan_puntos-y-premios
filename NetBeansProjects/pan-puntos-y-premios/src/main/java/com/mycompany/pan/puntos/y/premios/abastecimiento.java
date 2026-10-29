@@ -43,6 +43,10 @@ public class abastecimiento {
         this.idMenu = idMenu;
     }
     
+    public String getnombreProducto() {
+        return nombreProducto;
+    }
+
     public void setnombreProducto(String nombreProducto){
         this.nombreProducto = nombreProducto;
     }

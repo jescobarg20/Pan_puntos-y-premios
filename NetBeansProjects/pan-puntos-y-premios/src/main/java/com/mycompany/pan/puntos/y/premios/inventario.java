@@ -36,6 +36,10 @@ public class inventario {
         this.nombre= nombre;
     }
     
+    public int getunidades(){
+        return unidades;
+    }
+    
     public void setunidades(int unidades){
         if(unidades >= 0){
             this.unidades = unidades;

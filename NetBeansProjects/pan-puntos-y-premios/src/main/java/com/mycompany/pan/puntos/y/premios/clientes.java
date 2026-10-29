@@ -13,7 +13,7 @@ public class clientes extends Persona {
     private int idcliente;
     private int puntos;
     
-    public clientes(String nombre, String apellidos) {
+    public clientes(int idcliente, String nombre, String apellidos, int puntos) {
         super(nombre, apellidos);
         
         this.idcliente = idcliente;
@@ -26,6 +26,10 @@ public class clientes extends Persona {
     
     public void setIdcliente(int idcliente){
         this.idcliente = idcliente;
+    }
+    
+    public int getPuntos(){
+       return puntos;
     }
     
     public void setPuntos(int puntos){
